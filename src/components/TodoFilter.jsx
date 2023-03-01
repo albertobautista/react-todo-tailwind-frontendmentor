@@ -3,7 +3,7 @@ import React from "react";
 const TodoFilter = ({ filter, onChangeFilter }) => {
   return (
     <section className="container mx-auto mt-8">
-      <div className="flex justify-center gap-4 rounded bg-white p-4 text-gray-400">
+      <div className="flex justify-center gap-4 rounded bg-white p-4 text-gray-400 dark:bg-gray-800">
         <button
           onClick={() => onChangeFilter("all")}
           className={`${
